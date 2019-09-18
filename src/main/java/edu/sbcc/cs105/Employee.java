@@ -26,18 +26,18 @@ public class Employee {
     
     public Employee(String employeeName, double currentSalary) {
         this.employeeName = employeeName;
-		this.currentSalary = currentSalary;
+		    this.currentSalary = currentSalary;
     }
 
     // Accessors that are obvious and have no side effects don't have to have
     // any documentation unless you are creating a library to be used by other
     // people.
     public String getName() {
-		return employeeName;
+		    return employeeName;
     }
 
     public double getSalary() {
-		return currentSalary;
+		    return currentSalary;
     }
 
     /**
@@ -45,6 +45,6 @@ public class Employee {
      * 
      */
     public void raiseSalary(double byPercent) {
-		currentSalary = currentSalary + ((currentSalary * byPercent) / 100);
+		    currentSalary = currentSalary + ((currentSalary * byPercent) / 100);
     }
 }
