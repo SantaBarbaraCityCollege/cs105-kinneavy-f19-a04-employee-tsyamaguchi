@@ -12919,6 +12919,90 @@
 										<property name="type" type="string" value="String"/>
 									</properties>
 								</vpumlModel>
+								<vpumlModel id="nhmeQraAUCQcIQxL" modelType="AutoAttributeTypeModel">
+									<properties>
+										<property name="name" type="string" value="from"/>
+										<property name="modelType" type="string" value="AutoAttributeTypeModel"/>
+										<property name="type" type="string" value="String"/>
+									</properties>
+								</vpumlModel>
+								<vpumlModel id="sfWeQraAUCQcIQxP" modelType="AutoAttributeTypeModel">
+									<properties>
+										<property name="name" type="string" value="to"/>
+										<property name="modelType" type="string" value="AutoAttributeTypeModel"/>
+										<property name="type" type="string" value="String"/>
+									</properties>
+								</vpumlModel>
+								<vpumlModel id="zZueQraAUCQcIQxT" modelType="AutoAttributeTypeModel">
+									<properties>
+										<property name="name" type="string" value="line"/>
+										<property name="modelType" type="string" value="AutoAttributeTypeModel"/>
+										<property name="type" type="string" value="String"/>
+									</properties>
+								</vpumlModel>
+								<vpumlModel id="f.heQraAUCQcIQxb" modelType="AutoAttributeTypeModel">
+									<properties>
+										<property name="name" type="string" value="previousLine"/>
+										<property name="modelType" type="string" value="AutoAttributeTypeModel"/>
+										<property name="type" type="string" value="String"/>
+									</properties>
+								</vpumlModel>
+								<vpumlModel id="VaX5oraAUtByZgjF" modelType="AutoAttributeTypeModel">
+									<properties>
+										<property name="name" type="string" value="make"/>
+										<property name="modelType" type="string" value="AutoAttributeTypeModel"/>
+										<property name="type" type="string" value="String"/>
+									</properties>
+								</vpumlModel>
+								<vpumlModel id="Y2P5oraAUtByZgjJ" modelType="AutoAttributeTypeModel">
+									<properties>
+										<property name="name" type="string" value="model"/>
+										<property name="modelType" type="string" value="AutoAttributeTypeModel"/>
+										<property name="type" type="string" value="String"/>
+									</properties>
+								</vpumlModel>
+								<vpumlModel id="xxv5oraAUtByZgjO" modelType="AutoAttributeTypeModel">
+									<properties>
+										<property name="name" type="string" value="year"/>
+										<property name="modelType" type="string" value="AutoAttributeTypeModel"/>
+										<property name="type" type="string" value="int"/>
+									</properties>
+								</vpumlModel>
+								<vpumlModel id="nugForaAUtByZgkU" modelType="AutoAttributeTypeModel">
+									<properties>
+										<property name="name" type="string" value="velocity"/>
+										<property name="modelType" type="string" value="AutoAttributeTypeModel"/>
+										<property name="type" type="string" value="int"/>
+									</properties>
+								</vpumlModel>
+								<vpumlModel id="jLEForaAUtByZgku" modelType="AutoAttributeTypeModel">
+									<properties>
+										<property name="name" type="string" value="distanceTravelled"/>
+										<property name="modelType" type="string" value="AutoAttributeTypeModel"/>
+										<property name="type" type="string" value="double"/>
+									</properties>
+								</vpumlModel>
+								<vpumlModel id="XghForaAUtByZgk6" modelType="AutoAttributeTypeModel">
+									<properties>
+										<property name="name" type="string" value="lastCheckpoint"/>
+										<property name="modelType" type="string" value="AutoAttributeTypeModel"/>
+										<property name="type" type="string" value="LocalDateTime"/>
+									</properties>
+								</vpumlModel>
+								<vpumlModel id="tHZForaAUtByZgk." modelType="AutoAttributeTypeModel">
+									<properties>
+										<property name="name" type="string" value="startTime"/>
+										<property name="modelType" type="string" value="AutoAttributeTypeModel"/>
+										<property name="type" type="string" value="LocalDateTime"/>
+									</properties>
+								</vpumlModel>
+								<vpumlModel id="7VeRYraAUtByZgh6" modelType="AutoAttributeTypeModel">
+									<properties>
+										<property name="name" type="string" value="widthInInches"/>
+										<property name="modelType" type="string" value="AutoAttributeTypeModel"/>
+										<property name="type" type="string" value="double"/>
+									</properties>
+								</vpumlModel>
 							</vpumlModels>
 						</property>
 					</properties>
@@ -13138,7 +13222,7 @@
 				</xmi:Extension>
 				<ownedOperation isAbstract="false" isLeaf="false" isOrdered="false" isQuery="false" isStatic="true" isUnique="true" name="main" visibility="public" xmi:id="sjO9graAUCQcIQmp" xmi:type="uml:Operation">
 					<ownedParameter kind="return" type="void_id" xmi:id="sjO9graAUCQcIQmp_return" xmi:type="uml:Parameter"/>
-					<ownedParameter kind="inout" name="String" xmi:id="l3B9graAUCQcIQmu" xmi:type="uml:Parameter">
+					<ownedParameter kind="inout" name="args" type="String_id" xmi:id="l3B9graAUCQcIQmu" xmi:type="uml:Parameter">
 						<xmi:Extension extender="Visual Paradigm">
 							<typeModifier xmi:value="[]"/>
 							<qualityScore value="-1"/>
@@ -13149,7 +13233,599 @@
 						<properties>
 							<property name="pmAuthor" type="string" value="tristanyamaguchi"/>
 							<property name="pmCreateDateTime" type="string" value="1568766020685"/>
-							<property name="pmLastModified" type="string" value="1568766576755"/>
+							<property name="pmLastModified" type="string" value="1569261279357"/>
+							<property name="userIDLastNumericValue" type="int" value="0"/>
+							<property name="backlogActivityId" type="int" value="0"/>
+							<property name="static" type="boolean" value="false"/>
+							<property name="qualityScore" type="int" value="-1"/>
+							<property name="typeModifier" type="stringSelection" value=""/>
+							<property name="connectToCodeModel" type="int" value="1"/>
+							<property name="visible" type="boolean" value="true"/>
+						</properties>
+						<qualityScore value="-1"/>
+					</xmi:Extension>
+				</ownedOperation>
+			</ownedMember>
+		</ownedMember>
+		<ownedMember isAbstract="false" isLeaf="false" name="A05 - Letter" xmi:id="8HuOQraAUCQcIQu0" xmi:type="uml:Model">
+			<xmi:Extension extender="Visual Paradigm">
+				<model/>
+				<isRoot xmi:value="false"/>
+				<qualityScore value="-1"/>
+				<subdiagram xmi:value="ViNOQraAUCQcIQu5"/>
+			</xmi:Extension>
+			<ownedMember isAbstract="false" isActive="false" isLeaf="false" name="Program" visibility="public" xmi:id="x1dOQraAUCQcIQvH" xmi:type="uml:Class">
+				<xmi:Extension extender="Visual Paradigm">
+					<isRoot xmi:value="false"/>
+					<modelType value="Class"/>
+					<businessModel xmi:value="false"/>
+					<qualityScore value="-1"/>
+				</xmi:Extension>
+				<ownedOperation isAbstract="false" isLeaf="false" isOrdered="false" isQuery="false" isStatic="true" isUnique="true" name="main" visibility="public" xmi:id="IHAeQraAUCQcIQwj" xmi:type="uml:Operation">
+					<ownedParameter kind="return" type="void_id" xmi:id="IHAeQraAUCQcIQwj_return" xmi:type="uml:Parameter"/>
+					<ownedParameter kind="inout" name="String" xmi:id="tNweQraAUCQcIQwp" xmi:type="uml:Parameter">
+						<xmi:Extension extender="Visual Paradigm">
+							<typeModifier xmi:value="[]"/>
+							<qualityScore value="-1"/>
+						</xmi:Extension>
+					</ownedParameter>
+					<xmi:Extension extender="Visual Paradigm">
+						<returnTypeDocumentation xmi:value=""/>
+						<properties>
+							<property name="pmAuthor" type="string" value="tristanyamaguchi"/>
+							<property name="pmCreateDateTime" type="string" value="1568778227204"/>
+							<property name="pmLastModified" type="string" value="1568778281562"/>
+							<property name="userIDLastNumericValue" type="int" value="0"/>
+							<property name="backlogActivityId" type="int" value="0"/>
+							<property name="static" type="boolean" value="false"/>
+							<property name="qualityScore" type="int" value="-1"/>
+							<property name="typeModifier" type="stringSelection" value=""/>
+							<property name="connectToCodeModel" type="int" value="1"/>
+							<property name="visible" type="boolean" value="true"/>
+						</properties>
+						<qualityScore value="-1"/>
+					</xmi:Extension>
+				</ownedOperation>
+			</ownedMember>
+			<ownedMember isAbstract="false" isActive="false" isLeaf="false" name="Letter" visibility="public" xmi:id="Vh4eQraAUCQcIQw4" xmi:type="uml:Class">
+				<xmi:Extension extender="Visual Paradigm">
+					<isRoot xmi:value="false"/>
+					<modelType value="Class"/>
+					<businessModel xmi:value="false"/>
+					<qualityScore value="-1"/>
+				</xmi:Extension>
+				<ownedAttribute aggregation="none" isDerived="false" isDerivedUnion="false" isID="false" isLeaf="false" isReadOnly="false" isStatic="false" name="from" type="String_id" visibility="private" xmi:id="rqqeQraAUCQcIQxI" xmi:type="uml:Property">
+					<xmi:Extension extender="Visual Paradigm">
+						<attribute/>
+						<isVisble xmi:value="true"/>
+						<qualityScore value="-1"/>
+					</xmi:Extension>
+				</ownedAttribute>
+				<ownedAttribute aggregation="none" isDerived="false" isDerivedUnion="false" isID="false" isLeaf="false" isReadOnly="false" isStatic="false" name="to" type="String_id" visibility="private" xmi:id="3hmeQraAUCQcIQxM" xmi:type="uml:Property">
+					<xmi:Extension extender="Visual Paradigm">
+						<attribute/>
+						<isVisble xmi:value="true"/>
+						<qualityScore value="-1"/>
+					</xmi:Extension>
+				</ownedAttribute>
+				<ownedAttribute aggregation="none" isDerived="false" isDerivedUnion="false" isID="false" isLeaf="false" isReadOnly="false" isStatic="false" name="line" type="String_id" visibility="private" xmi:id="8fWeQraAUCQcIQxQ" xmi:type="uml:Property">
+					<xmi:Extension extender="Visual Paradigm">
+						<attribute/>
+						<isVisble xmi:value="true"/>
+						<qualityScore value="-1"/>
+					</xmi:Extension>
+				</ownedAttribute>
+				<ownedAttribute aggregation="none" isDerived="false" isDerivedUnion="false" isID="false" isLeaf="false" isReadOnly="false" isStatic="false" name="previousLine" type="String_id" visibility="private" xmi:id="LZueQraAUCQcIQxU" xmi:type="uml:Property">
+					<xmi:Extension extender="Visual Paradigm">
+						<attribute/>
+						<isVisble xmi:value="true"/>
+						<qualityScore value="-1"/>
+					</xmi:Extension>
+				</ownedAttribute>
+				<ownedOperation isAbstract="false" isLeaf="false" isOrdered="false" isQuery="false" isStatic="false" isUnique="true" name="Letter" visibility="public" xmi:id="CHFeQraAUCQcIQxh" xmi:type="uml:Operation">
+					<ownedParameter kind="return" xmi:id="CHFeQraAUCQcIQxh_return" xmi:type="uml:Parameter"/>
+					<ownedParameter kind="inout" name="from" type="String_id" xmi:id="JszeQraAUCQcIQx6" xmi:type="uml:Parameter">
+						<xmi:Extension extender="Visual Paradigm">
+							<qualityScore value="-1"/>
+						</xmi:Extension>
+					</ownedParameter>
+					<ownedParameter kind="inout" name="to" type="String_id" xmi:id="FszeQraAUCQcIQx7" xmi:type="uml:Parameter">
+						<xmi:Extension extender="Visual Paradigm">
+							<qualityScore value="-1"/>
+						</xmi:Extension>
+					</ownedParameter>
+					<xmi:Extension extender="Visual Paradigm">
+						<returnTypeDocumentation xmi:value=""/>
+						<properties>
+							<property name="pmAuthor" type="string" value="tristanyamaguchi"/>
+							<property name="pmCreateDateTime" type="string" value="1568778391056"/>
+							<property name="pmLastModified" type="string" value="1568778443394"/>
+							<property name="userIDLastNumericValue" type="int" value="0"/>
+							<property name="backlogActivityId" type="int" value="0"/>
+							<property name="static" type="boolean" value="false"/>
+							<property name="qualityScore" type="int" value="-1"/>
+							<property name="typeModifier" type="stringSelection" value=""/>
+							<property name="connectToCodeModel" type="int" value="1"/>
+							<property name="visible" type="boolean" value="true"/>
+						</properties>
+						<qualityScore value="-1"/>
+					</xmi:Extension>
+				</ownedOperation>
+				<ownedOperation isAbstract="false" isLeaf="false" isOrdered="false" isQuery="false" isStatic="false" isUnique="true" name="addLine" visibility="public" xmi:id="eg7eQraAUCQcIQyD" xmi:type="uml:Operation">
+					<ownedParameter kind="return" type="void_id" xmi:id="eg7eQraAUCQcIQyD_return" xmi:type="uml:Parameter"/>
+					<ownedParameter kind="inout" name="line" type="String_id" xmi:id="m6PeQraAUCQcIQyG" xmi:type="uml:Parameter">
+						<xmi:Extension extender="Visual Paradigm">
+							<qualityScore value="-1"/>
+						</xmi:Extension>
+					</ownedParameter>
+					<xmi:Extension extender="Visual Paradigm">
+						<returnTypeDocumentation xmi:value=""/>
+						<properties>
+							<property name="pmAuthor" type="string" value="tristanyamaguchi"/>
+							<property name="pmCreateDateTime" type="string" value="1568778448990"/>
+							<property name="pmLastModified" type="string" value="1568778480911"/>
+							<property name="userIDLastNumericValue" type="int" value="0"/>
+							<property name="backlogActivityId" type="int" value="0"/>
+							<property name="static" type="boolean" value="false"/>
+							<property name="qualityScore" type="int" value="-1"/>
+							<property name="typeModifier" type="stringSelection" value=""/>
+							<property name="connectToCodeModel" type="int" value="1"/>
+							<property name="visible" type="boolean" value="true"/>
+						</properties>
+						<qualityScore value="-1"/>
+					</xmi:Extension>
+				</ownedOperation>
+				<ownedOperation isAbstract="false" isLeaf="false" isOrdered="false" isQuery="false" isStatic="false" isUnique="true" name="getText" visibility="public" xmi:id=".6PeQraAUCQcIQyH" xmi:type="uml:Operation">
+					<ownedParameter kind="return" type="String_id" xmi:id=".6PeQraAUCQcIQyH_return" xmi:type="uml:Parameter"/>
+					<xmi:Extension extender="Visual Paradigm">
+						<returnTypeDocumentation xmi:value=""/>
+						<properties>
+							<property name="pmAuthor" type="string" value="tristanyamaguchi"/>
+							<property name="pmCreateDateTime" type="string" value="1568778470879"/>
+							<property name="pmLastModified" type="string" value="1568778540695"/>
+							<property name="userIDLastNumericValue" type="int" value="0"/>
+							<property name="backlogActivityId" type="int" value="0"/>
+							<property name="static" type="boolean" value="false"/>
+							<property name="qualityScore" type="int" value="-1"/>
+							<property name="typeModifier" type="stringSelection" value=""/>
+							<property name="connectToCodeModel" type="int" value="1"/>
+							<property name="visible" type="boolean" value="true"/>
+						</properties>
+						<qualityScore value="-1"/>
+					</xmi:Extension>
+				</ownedOperation>
+			</ownedMember>
+		</ownedMember>
+		<ownedMember isAbstract="false" isLeaf="false" name="L01 - Car" xmi:id="WE25oraAUtByZgdA" xmi:type="uml:Model">
+			<xmi:Extension extender="Visual Paradigm">
+				<model/>
+				<isRoot xmi:value="false"/>
+				<qualityScore value="-1"/>
+				<subdiagram xmi:value="0sx5oraAUtByZgdP"/>
+			</xmi:Extension>
+			<ownedMember isAbstract="false" isActive="false" isLeaf="false" name="Car" visibility="public" xmi:id="dZt5oraAUtByZgiv" xmi:type="uml:Class">
+				<xmi:Extension extender="Visual Paradigm">
+					<isRoot xmi:value="false"/>
+					<modelType value="Class"/>
+					<businessModel xmi:value="false"/>
+					<qualityScore value="-1"/>
+				</xmi:Extension>
+				<ownedAttribute aggregation="none" isDerived="false" isDerivedUnion="false" isID="false" isLeaf="false" isReadOnly="false" isStatic="false" name="make" type="String_id" visibility="private" xmi:id="Zj75oraAUtByZgi5" xmi:type="uml:Property">
+					<xmi:Extension extender="Visual Paradigm">
+						<attribute/>
+						<isVisble xmi:value="true"/>
+						<qualityScore value="-1"/>
+					</xmi:Extension>
+				</ownedAttribute>
+				<ownedAttribute aggregation="none" isDerived="false" isDerivedUnion="false" isID="false" isLeaf="false" isReadOnly="false" isStatic="false" name="model" type="String_id" visibility="private" xmi:id="TaX5oraAUtByZgjG" xmi:type="uml:Property">
+					<xmi:Extension extender="Visual Paradigm">
+						<attribute/>
+						<isVisble xmi:value="true"/>
+						<qualityScore value="-1"/>
+					</xmi:Extension>
+				</ownedAttribute>
+				<ownedAttribute aggregation="none" isDerived="false" isDerivedUnion="false" isID="false" isLeaf="false" isReadOnly="false" isStatic="false" name="year" type="int_id" visibility="private" xmi:id="U2P5oraAUtByZgjK" xmi:type="uml:Property">
+					<xmi:Extension extender="Visual Paradigm">
+						<attribute/>
+						<isVisble xmi:value="true"/>
+						<qualityScore value="-1"/>
+					</xmi:Extension>
+				</ownedAttribute>
+				<ownedAttribute aggregation="none" isDerived="false" isDerivedUnion="false" isID="false" isLeaf="false" isReadOnly="false" isStatic="false" name="velocity" type="int_id" visibility="private" xmi:id="Zxv5oraAUtByZgjP" xmi:type="uml:Property">
+					<xmi:Extension extender="Visual Paradigm">
+						<attribute/>
+						<isVisble xmi:value="true"/>
+						<qualityScore value="-1"/>
+					</xmi:Extension>
+				</ownedAttribute>
+				<ownedAttribute aggregation="none" isDerived="false" isDerivedUnion="false" isID="false" isLeaf="false" isReadOnly="false" isStatic="false" name="distanceTravelled" type="double_id" visibility="private" xmi:id="WCoForaAUtByZgkr" xmi:type="uml:Property">
+					<xmi:Extension extender="Visual Paradigm">
+						<attribute/>
+						<isVisble xmi:value="true"/>
+						<qualityScore value="-1"/>
+					</xmi:Extension>
+				</ownedAttribute>
+				<ownedAttribute aggregation="none" isDerived="false" isDerivedUnion="false" isID="false" isLeaf="false" isReadOnly="false" isStatic="false" name="lastCheckpoint" type="LocalDateTime_id" visibility="private" xmi:id="rLEForaAUtByZgkv" xmi:type="uml:Property">
+					<xmi:Extension extender="Visual Paradigm">
+						<attribute/>
+						<isVisble xmi:value="true"/>
+						<qualityScore value="-1"/>
+					</xmi:Extension>
+				</ownedAttribute>
+				<ownedAttribute aggregation="none" isDerived="false" isDerivedUnion="false" isID="false" isLeaf="false" isReadOnly="false" isStatic="false" name="startTime" type="LocalDateTime_id" visibility="private" xmi:id="gQhForaAUtByZgk7" xmi:type="uml:Property">
+					<xmi:Extension extender="Visual Paradigm">
+						<attribute/>
+						<isVisble xmi:value="true"/>
+						<qualityScore value="-1"/>
+					</xmi:Extension>
+				</ownedAttribute>
+				<ownedOperation isAbstract="false" isLeaf="false" isOrdered="false" isQuery="false" isStatic="false" isUnique="true" name="Car" visibility="public" xmi:id="T2lForaAUtByZglN" xmi:type="uml:Operation">
+					<ownedParameter kind="return" xmi:id="T2lForaAUtByZglN_return" xmi:type="uml:Parameter"/>
+					<xmi:Extension extender="Visual Paradigm">
+						<returnTypeDocumentation xmi:value=""/>
+						<properties>
+							<property name="pmAuthor" type="string" value="tristanyamaguchi"/>
+							<property name="pmCreateDateTime" type="string" value="1568831346418"/>
+							<property name="pmLastModified" type="string" value="1568831356440"/>
+							<property name="userIDLastNumericValue" type="int" value="0"/>
+							<property name="backlogActivityId" type="int" value="0"/>
+							<property name="static" type="boolean" value="false"/>
+							<property name="qualityScore" type="int" value="-1"/>
+							<property name="typeModifier" type="stringSelection" value=""/>
+							<property name="connectToCodeModel" type="int" value="1"/>
+							<property name="visible" type="boolean" value="true"/>
+						</properties>
+						<qualityScore value="-1"/>
+					</xmi:Extension>
+				</ownedOperation>
+				<ownedOperation isAbstract="false" isLeaf="false" isOrdered="false" isQuery="false" isStatic="false" isUnique="true" name="getMake" visibility="public" xmi:id="yQ9ForaAUtByZglV" xmi:type="uml:Operation">
+					<ownedParameter kind="return" type="String_id" xmi:id="yQ9ForaAUtByZglV_return" xmi:type="uml:Parameter"/>
+					<xmi:Extension extender="Visual Paradigm">
+						<returnTypeDocumentation xmi:value=""/>
+						<properties>
+							<property name="pmAuthor" type="string" value="tristanyamaguchi"/>
+							<property name="pmCreateDateTime" type="string" value="1568831369363"/>
+							<property name="pmLastModified" type="string" value="1568831398943"/>
+							<property name="userIDLastNumericValue" type="int" value="0"/>
+							<property name="backlogActivityId" type="int" value="0"/>
+							<property name="static" type="boolean" value="false"/>
+							<property name="qualityScore" type="int" value="-1"/>
+							<property name="typeModifier" type="stringSelection" value=""/>
+							<property name="connectToCodeModel" type="int" value="1"/>
+							<property name="visible" type="boolean" value="true"/>
+						</properties>
+						<qualityScore value="-1"/>
+					</xmi:Extension>
+				</ownedOperation>
+				<ownedOperation isAbstract="false" isLeaf="false" isOrdered="false" isQuery="false" isStatic="false" isUnique="true" name="setMake" visibility="public" xmi:id="DzzForaAUtByZglY" xmi:type="uml:Operation">
+					<ownedParameter kind="return" type="void_id" xmi:id="DzzForaAUtByZglY_return" xmi:type="uml:Parameter"/>
+					<ownedParameter kind="inout" name="make" type="String_id" xmi:id="SOfForaAUtByZglf" xmi:type="uml:Parameter">
+						<xmi:Extension extender="Visual Paradigm">
+							<qualityScore value="-1"/>
+						</xmi:Extension>
+					</ownedParameter>
+					<xmi:Extension extender="Visual Paradigm">
+						<returnTypeDocumentation xmi:value=""/>
+						<properties>
+							<property name="pmAuthor" type="string" value="tristanyamaguchi"/>
+							<property name="pmCreateDateTime" type="string" value="1568831388912"/>
+							<property name="pmLastModified" type="string" value="1568831442508"/>
+							<property name="userIDLastNumericValue" type="int" value="0"/>
+							<property name="backlogActivityId" type="int" value="0"/>
+							<property name="static" type="boolean" value="false"/>
+							<property name="qualityScore" type="int" value="-1"/>
+							<property name="typeModifier" type="stringSelection" value=""/>
+							<property name="connectToCodeModel" type="int" value="1"/>
+							<property name="visible" type="boolean" value="true"/>
+						</properties>
+						<qualityScore value="-1"/>
+					</xmi:Extension>
+				</ownedOperation>
+				<ownedOperation isAbstract="false" isLeaf="false" isOrdered="false" isQuery="false" isStatic="false" isUnique="true" name="getModel" visibility="public" xmi:id="eOfForaAUtByZglg" xmi:type="uml:Operation">
+					<ownedParameter kind="return" type="String_id" xmi:id="eOfForaAUtByZglg_return" xmi:type="uml:Parameter"/>
+					<xmi:Extension extender="Visual Paradigm">
+						<returnTypeDocumentation xmi:value=""/>
+						<properties>
+							<property name="pmAuthor" type="string" value="tristanyamaguchi"/>
+							<property name="pmCreateDateTime" type="string" value="1568831432478"/>
+							<property name="pmLastModified" type="string" value="1568831456255"/>
+							<property name="userIDLastNumericValue" type="int" value="0"/>
+							<property name="backlogActivityId" type="int" value="0"/>
+							<property name="static" type="boolean" value="false"/>
+							<property name="qualityScore" type="int" value="-1"/>
+							<property name="typeModifier" type="stringSelection" value=""/>
+							<property name="connectToCodeModel" type="int" value="1"/>
+							<property name="visible" type="boolean" value="true"/>
+						</properties>
+						<qualityScore value="-1"/>
+					</xmi:Extension>
+				</ownedOperation>
+				<ownedOperation isAbstract="false" isLeaf="false" isOrdered="false" isQuery="false" isStatic="false" isUnique="true" name="setModel" visibility="public" xmi:id="bjgloraAUtByZglj" xmi:type="uml:Operation">
+					<ownedParameter kind="return" type="void_id" xmi:id="bjgloraAUtByZglj_return" xmi:type="uml:Parameter"/>
+					<ownedParameter kind="inout" name="model" type="String_id" xmi:id="qqRloraAUtByZgls" xmi:type="uml:Parameter">
+						<xmi:Extension extender="Visual Paradigm">
+							<qualityScore value="-1"/>
+						</xmi:Extension>
+					</ownedParameter>
+					<xmi:Extension extender="Visual Paradigm">
+						<returnTypeDocumentation xmi:value=""/>
+						<properties>
+							<property name="pmAuthor" type="string" value="tristanyamaguchi"/>
+							<property name="pmCreateDateTime" type="string" value="1568831446134"/>
+							<property name="pmLastModified" type="string" value="1568831603736"/>
+							<property name="userIDLastNumericValue" type="int" value="0"/>
+							<property name="backlogActivityId" type="int" value="0"/>
+							<property name="static" type="boolean" value="false"/>
+							<property name="qualityScore" type="int" value="-1"/>
+							<property name="typeModifier" type="stringSelection" value=""/>
+							<property name="connectToCodeModel" type="int" value="1"/>
+							<property name="visible" type="boolean" value="true"/>
+						</properties>
+						<qualityScore value="-1"/>
+					</xmi:Extension>
+				</ownedOperation>
+				<ownedOperation isAbstract="false" isLeaf="false" isOrdered="false" isQuery="false" isStatic="false" isUnique="true" name="getYear" visibility="public" xmi:id="JzploraAUtByZglx" xmi:type="uml:Operation">
+					<ownedParameter kind="return" type="int_id" xmi:id="JzploraAUtByZglx_return" xmi:type="uml:Parameter"/>
+					<xmi:Extension extender="Visual Paradigm">
+						<returnTypeDocumentation xmi:value=""/>
+						<properties>
+							<property name="pmAuthor" type="string" value="tristanyamaguchi"/>
+							<property name="pmCreateDateTime" type="string" value="1568831593700"/>
+							<property name="pmLastModified" type="string" value="1568831615368"/>
+							<property name="userIDLastNumericValue" type="int" value="0"/>
+							<property name="backlogActivityId" type="int" value="0"/>
+							<property name="static" type="boolean" value="false"/>
+							<property name="qualityScore" type="int" value="-1"/>
+							<property name="typeModifier" type="stringSelection" value=""/>
+							<property name="connectToCodeModel" type="int" value="1"/>
+							<property name="visible" type="boolean" value="true"/>
+						</properties>
+						<qualityScore value="-1"/>
+					</xmi:Extension>
+				</ownedOperation>
+				<ownedOperation isAbstract="false" isLeaf="false" isOrdered="false" isQuery="false" isStatic="false" isUnique="true" name="setYear" visibility="public" xmi:id="GlFloraAUtByZgl0" xmi:type="uml:Operation">
+					<ownedParameter kind="return" type="void_id" xmi:id="GlFloraAUtByZgl0_return" xmi:type="uml:Parameter"/>
+					<ownedParameter kind="inout" name="year" type="int_id" xmi:id="PetloraAUtByZgl3" xmi:type="uml:Parameter">
+						<xmi:Extension extender="Visual Paradigm">
+							<qualityScore value="-1"/>
+						</xmi:Extension>
+					</ownedParameter>
+					<xmi:Extension extender="Visual Paradigm">
+						<returnTypeDocumentation xmi:value=""/>
+						<properties>
+							<property name="pmAuthor" type="string" value="tristanyamaguchi"/>
+							<property name="pmCreateDateTime" type="string" value="1568831605337"/>
+							<property name="pmLastModified" type="string" value="1568831635184"/>
+							<property name="userIDLastNumericValue" type="int" value="0"/>
+							<property name="backlogActivityId" type="int" value="0"/>
+							<property name="static" type="boolean" value="false"/>
+							<property name="qualityScore" type="int" value="-1"/>
+							<property name="typeModifier" type="stringSelection" value=""/>
+							<property name="connectToCodeModel" type="int" value="1"/>
+							<property name="visible" type="boolean" value="true"/>
+						</properties>
+						<qualityScore value="-1"/>
+					</xmi:Extension>
+				</ownedOperation>
+				<ownedOperation isAbstract="false" isLeaf="false" isOrdered="false" isQuery="false" isStatic="false" isUnique="true" name="getVelocity" visibility="public" xmi:id="o.tloraAUtByZgl4" xmi:type="uml:Operation">
+					<ownedParameter kind="return" type="int_id" xmi:id="o.tloraAUtByZgl4_return" xmi:type="uml:Parameter"/>
+					<xmi:Extension extender="Visual Paradigm">
+						<returnTypeDocumentation xmi:value=""/>
+						<properties>
+							<property name="pmAuthor" type="string" value="tristanyamaguchi"/>
+							<property name="pmCreateDateTime" type="string" value="1568831625157"/>
+							<property name="pmLastModified" type="string" value="1568831654703"/>
+							<property name="userIDLastNumericValue" type="int" value="0"/>
+							<property name="backlogActivityId" type="int" value="0"/>
+							<property name="static" type="boolean" value="false"/>
+							<property name="qualityScore" type="int" value="-1"/>
+							<property name="typeModifier" type="stringSelection" value=""/>
+							<property name="connectToCodeModel" type="int" value="1"/>
+							<property name="visible" type="boolean" value="true"/>
+						</properties>
+						<qualityScore value="-1"/>
+					</xmi:Extension>
+				</ownedOperation>
+				<ownedOperation isAbstract="false" isLeaf="false" isOrdered="false" isQuery="false" isStatic="false" isUnique="true" name="accelerate" visibility="public" xmi:id="QCTloraAUtByZgl7" xmi:type="uml:Operation">
+					<ownedParameter kind="return" type="void_id" xmi:id="QCTloraAUtByZgl7_return" xmi:type="uml:Parameter"/>
+					<ownedParameter kind="inout" name="byHowMuch" type="int_id" xmi:id="cPnloraAUtByZgl." xmi:type="uml:Parameter">
+						<xmi:Extension extender="Visual Paradigm">
+							<qualityScore value="-1"/>
+						</xmi:Extension>
+					</ownedParameter>
+					<xmi:Extension extender="Visual Paradigm">
+						<returnTypeDocumentation xmi:value=""/>
+						<properties>
+							<property name="pmAuthor" type="string" value="tristanyamaguchi"/>
+							<property name="pmCreateDateTime" type="string" value="1568831644674"/>
+							<property name="pmLastModified" type="string" value="1568831686209"/>
+							<property name="userIDLastNumericValue" type="int" value="0"/>
+							<property name="backlogActivityId" type="int" value="0"/>
+							<property name="static" type="boolean" value="false"/>
+							<property name="qualityScore" type="int" value="-1"/>
+							<property name="typeModifier" type="stringSelection" value=""/>
+							<property name="connectToCodeModel" type="int" value="1"/>
+							<property name="visible" type="boolean" value="true"/>
+						</properties>
+						<qualityScore value="-1"/>
+					</xmi:Extension>
+				</ownedOperation>
+				<ownedOperation isAbstract="false" isLeaf="false" isOrdered="false" isQuery="false" isStatic="false" isUnique="true" name="stop" visibility="public" xmi:id="aPnloraAUtByZgl_" xmi:type="uml:Operation">
+					<ownedParameter kind="return" type="void_id" xmi:id="aPnloraAUtByZgl__return" xmi:type="uml:Parameter"/>
+					<xmi:Extension extender="Visual Paradigm">
+						<returnTypeDocumentation xmi:value=""/>
+						<properties>
+							<property name="pmAuthor" type="string" value="tristanyamaguchi"/>
+							<property name="pmCreateDateTime" type="string" value="1568831676182"/>
+							<property name="pmLastModified" type="string" value="1568831696928"/>
+							<property name="userIDLastNumericValue" type="int" value="0"/>
+							<property name="backlogActivityId" type="int" value="0"/>
+							<property name="static" type="boolean" value="false"/>
+							<property name="qualityScore" type="int" value="-1"/>
+							<property name="typeModifier" type="stringSelection" value=""/>
+							<property name="connectToCodeModel" type="int" value="1"/>
+							<property name="visible" type="boolean" value="true"/>
+						</properties>
+						<qualityScore value="-1"/>
+					</xmi:Extension>
+				</ownedOperation>
+				<ownedOperation isAbstract="false" isLeaf="false" isOrdered="false" isQuery="false" isStatic="false" isUnique="true" name="getDistanceTravelled" visibility="public" xmi:id="LxPloraAUtByZgmC" xmi:type="uml:Operation">
+					<ownedParameter kind="return" type="double_id" xmi:id="LxPloraAUtByZgmC_return" xmi:type="uml:Parameter"/>
+					<xmi:Extension extender="Visual Paradigm">
+						<returnTypeDocumentation xmi:value=""/>
+						<properties>
+							<property name="pmAuthor" type="string" value="tristanyamaguchi"/>
+							<property name="pmCreateDateTime" type="string" value="1568831686900"/>
+							<property name="pmLastModified" type="string" value="1568831714629"/>
+							<property name="userIDLastNumericValue" type="int" value="0"/>
+							<property name="backlogActivityId" type="int" value="0"/>
+							<property name="static" type="boolean" value="false"/>
+							<property name="qualityScore" type="int" value="-1"/>
+							<property name="typeModifier" type="stringSelection" value=""/>
+							<property name="connectToCodeModel" type="int" value="1"/>
+							<property name="visible" type="boolean" value="true"/>
+						</properties>
+						<qualityScore value="-1"/>
+					</xmi:Extension>
+				</ownedOperation>
+				<ownedOperation isAbstract="false" isLeaf="false" isOrdered="false" isQuery="false" isStatic="false" isUnique="true" name="updateTrip" visibility="public" xmi:id="aHAVoraAUtByZgmF" xmi:type="uml:Operation">
+					<ownedParameter kind="return" type="void_id" xmi:id="aHAVoraAUtByZgmF_return" xmi:type="uml:Parameter"/>
+					<xmi:Extension extender="Visual Paradigm">
+						<returnTypeDocumentation xmi:value=""/>
+						<properties>
+							<property name="pmAuthor" type="string" value="tristanyamaguchi"/>
+							<property name="pmCreateDateTime" type="string" value="1568831704598"/>
+							<property name="pmLastModified" type="string" value="1568831738291"/>
+							<property name="userIDLastNumericValue" type="int" value="0"/>
+							<property name="backlogActivityId" type="int" value="0"/>
+							<property name="static" type="boolean" value="false"/>
+							<property name="qualityScore" type="int" value="-1"/>
+							<property name="typeModifier" type="stringSelection" value=""/>
+							<property name="connectToCodeModel" type="int" value="1"/>
+							<property name="visible" type="boolean" value="true"/>
+						</properties>
+						<qualityScore value="-1"/>
+					</xmi:Extension>
+				</ownedOperation>
+			</ownedMember>
+		</ownedMember>
+		<ownedMember isAbstract="false" isLeaf="false" name="A06 - LetterSize" xmi:id="tO3hYraAUtByZgbN" xmi:type="uml:Model">
+			<xmi:Extension extender="Visual Paradigm">
+				<model/>
+				<isRoot xmi:value="false"/>
+				<qualityScore value="-1"/>
+				<subdiagram xmi:value="iVYRYraAUtByZgbZ"/>
+			</xmi:Extension>
+			<ownedMember isAbstract="false" isActive="false" isLeaf="false" name="Program" visibility="public" xmi:id="bpkRYraAUtByZgg8" xmi:type="uml:Class">
+				<xmi:Extension extender="Visual Paradigm">
+					<isRoot xmi:value="false"/>
+					<modelType value="Class"/>
+					<businessModel xmi:value="false"/>
+					<qualityScore value="-1"/>
+				</xmi:Extension>
+				<ownedOperation isAbstract="false" isLeaf="false" isOrdered="false" isQuery="false" isStatic="true" isUnique="true" name="main" visibility="public" xmi:id="G_MRYraAUtByZghA" xmi:type="uml:Operation">
+					<ownedParameter kind="return" type="void_id" xmi:id="G_MRYraAUtByZghA_return" xmi:type="uml:Parameter"/>
+					<ownedParameter kind="inout" name="String" xmi:id="2iCRYraAUtByZghH" xmi:type="uml:Parameter">
+						<xmi:Extension extender="Visual Paradigm">
+							<typeModifier xmi:value="[]"/>
+							<qualityScore value="-1"/>
+						</xmi:Extension>
+					</ownedParameter>
+					<xmi:Extension extender="Visual Paradigm">
+						<returnTypeDocumentation xmi:value=""/>
+						<properties>
+							<property name="pmAuthor" type="string" value="tristanyamaguchi"/>
+							<property name="pmCreateDateTime" type="string" value="1568846434264"/>
+							<property name="pmLastModified" type="string" value="1568846498852"/>
+							<property name="userIDLastNumericValue" type="int" value="0"/>
+							<property name="backlogActivityId" type="int" value="0"/>
+							<property name="static" type="boolean" value="false"/>
+							<property name="qualityScore" type="int" value="-1"/>
+							<property name="typeModifier" type="stringSelection" value=""/>
+							<property name="connectToCodeModel" type="int" value="1"/>
+							<property name="visible" type="boolean" value="true"/>
+						</properties>
+						<qualityScore value="-1"/>
+					</xmi:Extension>
+				</ownedOperation>
+			</ownedMember>
+			<ownedMember isAbstract="false" isActive="false" isLeaf="false" name="LetterSize" visibility="public" xmi:id="wJaRYraAUtByZghi" xmi:type="uml:Class">
+				<xmi:Extension extender="Visual Paradigm">
+					<isRoot xmi:value="false"/>
+					<modelType value="Class"/>
+					<businessModel xmi:value="false"/>
+					<qualityScore value="-1"/>
+				</xmi:Extension>
+				<ownedAttribute aggregation="none" isDerived="false" isDerivedUnion="false" isID="false" isLeaf="false" isReadOnly="false" isStatic="false" name="widthInInches" type="double_id" visibility="private" xmi:id="ryWRYraAUtByZghm" xmi:type="uml:Property">
+					<xmi:Extension extender="Visual Paradigm">
+						<attribute/>
+						<isVisble xmi:value="true"/>
+						<qualityScore value="-1"/>
+					</xmi:Extension>
+				</ownedAttribute>
+				<ownedAttribute aggregation="none" isDerived="false" isDerivedUnion="false" isID="false" isLeaf="false" isReadOnly="false" isStatic="false" name="heightInInches" type="double_id" visibility="private" xmi:id="3VeRYraAUtByZgh7" xmi:type="uml:Property">
+					<xmi:Extension extender="Visual Paradigm">
+						<attribute/>
+						<isVisble xmi:value="true"/>
+						<qualityScore value="-1"/>
+					</xmi:Extension>
+				</ownedAttribute>
+				<ownedOperation isAbstract="false" isLeaf="false" isOrdered="false" isQuery="false" isStatic="false" isUnique="true" name="LetterSize" visibility="public" xmi:id="XOFRYraAUtByZgje" xmi:type="uml:Operation">
+					<ownedParameter kind="return" xmi:id="XOFRYraAUtByZgje_return" xmi:type="uml:Parameter"/>
+					<ownedParameter kind="inout" name="widthInInches" type="double_id" xmi:id="TkrRYraAUtByZgkB" xmi:type="uml:Parameter">
+						<xmi:Extension extender="Visual Paradigm">
+							<qualityScore value="-1"/>
+						</xmi:Extension>
+					</ownedParameter>
+					<ownedParameter kind="inout" name="heightInInches" type="double_id" xmi:id="pCdRYraAUtByZgju" xmi:type="uml:Parameter">
+						<xmi:Extension extender="Visual Paradigm">
+							<qualityScore value="-1"/>
+						</xmi:Extension>
+					</ownedParameter>
+					<xmi:Extension extender="Visual Paradigm">
+						<returnTypeDocumentation xmi:value=""/>
+						<properties>
+							<property name="pmAuthor" type="string" value="tristanyamaguchi"/>
+							<property name="pmCreateDateTime" type="string" value="1568846546746"/>
+							<property name="pmLastModified" type="string" value="1568846676498"/>
+							<property name="userIDLastNumericValue" type="int" value="0"/>
+							<property name="backlogActivityId" type="int" value="0"/>
+							<property name="static" type="boolean" value="false"/>
+							<property name="qualityScore" type="int" value="-1"/>
+							<property name="typeModifier" type="stringSelection" value=""/>
+							<property name="connectToCodeModel" type="int" value="1"/>
+							<property name="visible" type="boolean" value="true"/>
+						</properties>
+						<qualityScore value="-1"/>
+					</xmi:Extension>
+				</ownedOperation>
+				<ownedOperation isAbstract="false" isLeaf="false" isOrdered="false" isQuery="false" isStatic="false" isUnique="true" name="getWidthInMillimeters" visibility="public" xmi:id="9wHRYraAUtByZgkK" xmi:type="uml:Operation">
+					<ownedParameter kind="return" type="double_id" xmi:id="9wHRYraAUtByZgkK_return" xmi:type="uml:Parameter"/>
+					<xmi:Extension extender="Visual Paradigm">
+						<returnTypeDocumentation xmi:value=""/>
+						<properties>
+							<property name="pmAuthor" type="string" value="tristanyamaguchi"/>
+							<property name="pmCreateDateTime" type="string" value="1568846610671"/>
+							<property name="pmLastModified" type="string" value="1568846630635"/>
+							<property name="userIDLastNumericValue" type="int" value="0"/>
+							<property name="backlogActivityId" type="int" value="0"/>
+							<property name="static" type="boolean" value="false"/>
+							<property name="qualityScore" type="int" value="-1"/>
+							<property name="typeModifier" type="stringSelection" value=""/>
+							<property name="connectToCodeModel" type="int" value="1"/>
+							<property name="visible" type="boolean" value="true"/>
+						</properties>
+						<qualityScore value="-1"/>
+					</xmi:Extension>
+				</ownedOperation>
+				<ownedOperation isAbstract="false" isLeaf="false" isOrdered="false" isQuery="false" isStatic="false" isUnique="true" name="getHeightInMillimeters" visibility="public" xmi:id="HeXRYraAUtByZgkN" xmi:type="uml:Operation">
+					<ownedParameter kind="return" type="double_id" xmi:id="HeXRYraAUtByZgkN_return" xmi:type="uml:Parameter"/>
+					<xmi:Extension extender="Visual Paradigm">
+						<returnTypeDocumentation xmi:value=""/>
+						<properties>
+							<property name="pmAuthor" type="string" value="tristanyamaguchi"/>
+							<property name="pmCreateDateTime" type="string" value="1568846620600"/>
+							<property name="pmLastModified" type="string" value="1568846676498"/>
 							<property name="userIDLastNumericValue" type="int" value="0"/>
 							<property name="backlogActivityId" type="int" value="0"/>
 							<property name="static" type="boolean" value="false"/>
@@ -13168,9 +13844,21 @@
 				<qualityScore value="-1"/>
 			</xmi:Extension>
 		</ownedMember>
+		<ownedMember client="x1dOQraAUCQcIQvH" supplier="8fWeQraAUCQcIQxQ" xmi:id="4Ts.QraAUCQcIQyX" xmi:type="uml:Dependency">
+			<xmi:Extension extender="Visual Paradigm">
+				<qualityScore value="-1"/>
+			</xmi:Extension>
+		</ownedMember>
+		<ownedMember client="bpkRYraAUtByZgg8" supplier="XOFRYraAUtByZgje" xmi:id="2PIxYraAUtByZgmW" xmi:type="uml:Dependency">
+			<xmi:Extension extender="Visual Paradigm">
+				<qualityScore value="-1"/>
+			</xmi:Extension>
+		</ownedMember>
+		<ownedMember name="LocalDateTime" visibility="public" xmi:id="LocalDateTime_id" xmi:type="uml:DataType"/>
 		<ownedMember name="void" visibility="public" xmi:id="void_id" xmi:type="uml:DataType"/>
 		<ownedMember name="double" visibility="public" xmi:id="double_id" xmi:type="uml:DataType"/>
 		<ownedMember name="String" visibility="public" xmi:id="String_id" xmi:type="uml:DataType"/>
+		<ownedMember name="int" visibility="public" xmi:id="int_id" xmi:type="uml:DataType"/>
 	</uml:Model>
 	<uml:Diagram diagramType="ClassDiagram" documentation="" name="A04 - Employee Class Diagram" toolName="Visual Paradigm" xmi:id="lK9tgraAUCQcIQWf">
 		<xmi:Extension extender="Visual Paradigm">
@@ -13180,7 +13868,7 @@
 				<ashowAllocatedTo value="true"/>
 				<apmAuthor value="tristanyamaguchi"/>
 				<apmCreateDateTime value="1568765572393"/>
-				<apmLastModified value="1568769124684"/>
+				<apmLastModified value="1569261269339"/>
 				<ateamworkCreateDateTime value="0"/>
 				<ashowShapeLegend value="false"/>
 				<ashowColorLegend value="false"/>
@@ -13225,8 +13913,8 @@
 				<amaximized value="true"/>
 				<ax value="0"/>
 				<ay value="0"/>
-				<awidth value="1254"/>
-				<aheight value="553"/>
+				<awidth value="862"/>
+				<aheight value="546"/>
 				<aqualityScore value="-1"/>
 				<aparentModel value="jZ6tgraAUCQcIQWT"/>
 				<a_globalPaletteOption value="true"/>
@@ -13254,6 +13942,81 @@
 			</properties>
 		</xmi:Extension>
 		<uml:Diagram.element>
+			<uml:DiagramElement geometry="159,217,155,53" preferredShapeType="Class" subject="xxw9graAUCQcIQi." xmi:id="xxw9graAUCQcIQi9">
+				<xmi:Extension extender="Visual Paradigm">
+					<captionBounds value="0,0,155,14"/>
+					<captionInternalWidth value="-2147483648"/>
+					<captionInternalHeight value="-2147483648"/>
+					<captionVisible value="true"/>
+					<captionSide value="12"/>
+					<properties>
+						<azOrder value="2"/>
+						<abackground value="Cr:122,207,245,255"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<acreatorDiagramType value="ClassDiagram"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<arequestResetCaptionFitWidth value="false"/>
+						<amodelElementNameAlignment value="9"/>
+						<apresentationOption value="4"/>
+						<aprimitiveShapeType value="0"/>
+						<ashowStereotypeIconName value="0"/>
+						<ashowAllocatedFrom value="0"/>
+						<ashowAllocatedTo value="0"/>
+						<aoverrideAppearanceWithStereotypeIcon value="true"/>
+						<arequestSetSizeOption value="0"/>
+						<aparentConnectorHeaderLength value="40"/>
+						<aparentConnectorLineLength value="10"/>
+						<aconnectToPoint value="true"/>
+						<aparentConnectorDTheta value="0.0"/>
+						<aconnectionPointType value="2"/>
+						<arequestDefaultSize value="false"/>
+						<arequestFitSize value="false"/>
+						<arequestFitSizeFromCenter value="false"/>
+						<adisplayAsRobustnessAnalysisIcon value="true"/>
+						<avisibilityStyle value="1"/>
+						<ashowAttributeType value="1"/>
+						<ashowOperationType value="1"/>
+						<ashowEnumerationLiteralType value="1"/>
+						<amSwTpPts value="true"/>
+						<alshRfAts value="0"/>
+						<amShDrAt value="false"/>
+						<akShDrOp value="false"/>
+						<akSwCsMbSt value="true"/>
+						<ashowClassMemberConstraints value="true"/>
+						<alShCmMl value="false"/>
+						<ashowOperationParameterDirection value="false"/>
+						<ashowOperationRaisedExceptions value="false"/>
+						<ashowParameterNameInOperationSignature value="true"/>
+						<ashowOperationTemplateParameters value="false"/>
+						<ashowOperationProperties value="false"/>
+						<awpMbs value="false"/>
+						<aattributeSortType value="0"/>
+						<aoperationSortType value="0"/>
+						<aenumerationLiteralSortType value="0"/>
+						<ashowInitialAttributeValue value="true"/>
+						<ashowOperationSignature value="true"/>
+						<ainterfaceBall value="false"/>
+						<ashowEmptyCompartments value="0"/>
+						<ashowEllipsisForUnshownMembers value="0"/>
+						<ashowAttributesCodeDetails value="0"/>
+						<ashowAttributesPropertyModifiers value="0"/>
+						<ashowOperationsCodeDetails value="0"/>
+						<ashowParametersCodeDetails value="0"/>
+						<ashowTypeOption value="0"/>
+						<ashowOwnerOption value="3"/>
+						<ashowAttributesType value="0"/>
+						<ashowOperationsParameters value="0"/>
+						<ashowOperationsReturnType value="0"/>
+						<asuppressImplied1MultiplicityForAttribute value="0"/>
+					</properties>
+				</xmi:Extension>
+				<elementFill color1="Cr:122,207,245,255" color2="" style="1" transparency="0" type="1"/>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+				<CompartmentFont value="none"/>
+			</uml:DiagramElement>
 			<uml:DiagramElement geometry="389,205,286,110" preferredShapeType="Class" subject="O5TtgraAUCQcIQgK" xmi:id="NZTtgraAUCQcIQfX">
 				<xmi:Extension extender="Visual Paradigm">
 					<captionBounds value="0,0,286,14"/>
@@ -13329,9 +14092,134 @@
 				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
 				<CompartmentFont value="none"/>
 			</uml:DiagramElement>
-			<uml:DiagramElement geometry="159,217,139,53" preferredShapeType="Class" subject="xxw9graAUCQcIQi." xmi:id="xxw9graAUCQcIQi9">
+			<uml:DiagramElement fromDiagramElement="xxw9graAUCQcIQi9" geometry="315,240;389,240;" preferredShapeType="Dependency" subject="fk_jgraAUCQcIQqJ" toDiagramElement="NZTtgraAUCQcIQfX" xmi:id="wU_jgraAUCQcIQqK">
 				<xmi:Extension extender="Visual Paradigm">
-					<captionBounds value="0,0,139,14"/>
+					<captionBounds value="369,240,20,0"/>
+					<captionInternalWidth value="-2147483648"/>
+					<captionInternalHeight value="-2147483648"/>
+					<captionVisible value="true"/>
+					<captionSide value="1"/>
+					<properties>
+						<azOrder value="6"/>
+						<abackground value="Cr:122,207,245,255"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<acreatorDiagramType value="ClassDiagram"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<arequestResetCaptionFitWidth value="false"/>
+						<amodelElementNameAlignment value="9"/>
+						<atoMemberId value="BOSdgraAUCQcIQgd"/>
+						<aconnectorStyle value="3"/>
+						<aconnectorLineJumps value="4"/>
+						<aconnectorLabelOrientation value="4"/>
+						<afromShapeXDiff value="0"/>
+						<afromShapeYDiff value="0"/>
+						<atoShapeXDiff value="0"/>
+						<atoShapeYDiff value="0"/>
+						<afromConnectType value="0"/>
+						<atoConnectType value="0"/>
+						<auseFromShapeCenter value="true"/>
+						<auseToShapeCenter value="true"/>
+						<afromPinType value="1"/>
+						<atoPinType value="1"/>
+						<arequestRebuild value="false"/>
+						<arequestRebuildFromEnd value="false"/>
+						<arequestRebuildToEnd value="false"/>
+						<ashowConnectorName value="2"/>
+						<apaintThroughLabel value="2"/>
+					</properties>
+				</xmi:Extension>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+			</uml:DiagramElement>
+		</uml:Diagram.element>
+	</uml:Diagram>
+	<uml:Diagram diagramType="ClassDiagram" documentation="" name="A05 - Letter Class Diagram" toolName="Visual Paradigm" xmi:id="ViNOQraAUCQcIQu5">
+		<xmi:Extension extender="Visual Paradigm">
+			<properties>
+				<ashowShapeStereotypeIconName value="true"/>
+				<ashowAllocatedFrom value="true"/>
+				<ashowAllocatedTo value="true"/>
+				<apmAuthor value="tristanyamaguchi"/>
+				<apmCreateDateTime value="1568777880682"/>
+				<apmLastModified value="1568778558550"/>
+				<ateamworkCreateDateTime value="0"/>
+				<ashowShapeLegend value="false"/>
+				<ashowColorLegend value="false"/>
+				<ashowPackageNameStyle value="0"/>
+				<ashowConnectorName value="0"/>
+				<ashowInformationItemOption value="2"/>
+				<ahideConnectorIfFromToIsHidden value="0"/>
+				<apaintConnectorThroughLabel value="1"/>
+				<ashowActivityStateNodeCaption value="524287"/>
+				<adocumentation htmlValue="&lt;html&gt;&#10;  &lt;head&gt;&#10;    &lt;style type=&quot;text/css&quot;&gt;&#10;      &lt;!--&#10;        body { color: #000000; font-family: Dialog; font-size: 12px }&#10;      --&gt;&#10;    &lt;/style&gt;&#10;    &#10;  &lt;/head&gt;&#10;  &lt;body&gt;&#10;    &lt;p&gt;&#10;      &#10;    &lt;/p&gt;&#10;  &lt;/body&gt;&#10;&lt;/html&gt;&#10;"/>
+				<aeditable value="true"/>
+				<arequestFitSizeWithPromptUser value="false"/>
+				<afollowDiagramParentElement value="true"/>
+				<aautoFitShapesSize value="false"/>
+				<ashowTaggedValues value="false"/>
+				<ahideEmptyTaggedValues value="false"/>
+				<ashowStereotypes value="true"/>
+				<ashowPMIteration value="false"/>
+				<ashowPMPhase value="false"/>
+				<ashowPMDiscipline value="false"/>
+				<ashowPMVersion value="false"/>
+				<ashowPMPriority value="false"/>
+				<ashowPMStatus value="false"/>
+				<ashowPMDifficulty value="false"/>
+				<ashowPMAuthor value="false"/>
+				<ashowConstraints value="false"/>
+				<aalignToGrid value="false"/>
+				<agridVisible value="false"/>
+				<agridWidth value="10"/>
+				<agridHeight value="10"/>
+				<agridColor value="Cr:192,192,192,255"/>
+				<adiagramBackground value="Cr:255,255,255,255"/>
+				<aconnectorStyle value="1"/>
+				<aconnectorLineJumps value="0"/>
+				<aconnectorLineJumpsSize value="0"/>
+				<aconnectionPointStyle value="0"/>
+				<aconnectorLabelOrientation value="0"/>
+				<aconnectorModelElementNameAlignment value="4"/>
+				<amodelElementNameAlignment value="4"/>
+				<ashapePresentationOption value="0"/>
+				<azoomRatio value="1.0"/>
+				<amaximized value="false"/>
+				<ax value="0"/>
+				<ay value="0"/>
+				<awidth value="0"/>
+				<aheight value="0"/>
+				<aqualityScore value="-1"/>
+				<aparentModel value="8HuOQraAUCQcIQu0"/>
+				<a_globalPaletteOption value="true"/>
+				<ainitializeDiagramForCreate value="true"/>
+				<arequestValidateSnapToGrid value="false"/>
+				<apointConnectorEndToCompartmentMember value="true"/>
+				<ashowDefaultPackage value="true"/>
+				<ashowAttributeGetterSetter value="false"/>
+				<ashowClassOwner value="2"/>
+				<ashowPackageOwner value="2"/>
+				<ashowTemplateInfoOfGeneralizationAndRealization value="false"/>
+				<asuppressImplied1MultiplicityForAttributeAndAssociationEnd value="false"/>
+				<ashowClassEmptyCompartments value="2"/>
+				<ashowAttributesCodeDetails value="2"/>
+				<ashowAttributesPropertyModifiers value="2"/>
+				<ashowAttributesType value="1"/>
+				<ashowOperationsParameters value="1"/>
+				<ashowOperationsReturnType value="1"/>
+				<ashowOperationsCodeDetails value="2"/>
+				<ashowParametersCodeDetails value="2"/>
+				<ashowEllipsisForUnshownClassMembers value="2"/>
+				<ageneralizationSetNotation value="2"/>
+				<ashowAssociationNavigationArrows value="3"/>
+				<ashowClassReferencedAttributes value="true"/>
+			</properties>
+		</xmi:Extension>
+		<uml:Diagram.element>
+			<uml:DiagramElement geometry="454,228,180,133" preferredShapeType="Class" subject="Vh4eQraAUCQcIQw4" xmi:id="lh4eQraAUCQcIQw3">
+				<xmi:Extension extender="Visual Paradigm">
+					<captionBounds value="0,0,180,14"/>
 					<captionInternalWidth value="-2147483648"/>
 					<captionInternalHeight value="-2147483648"/>
 					<captionVisible value="true"/>
@@ -13404,9 +14292,84 @@
 				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
 				<CompartmentFont value="none"/>
 			</uml:DiagramElement>
-			<uml:DiagramElement fromDiagramElement="xxw9graAUCQcIQi9" geometry="299,240;389,240;" preferredShapeType="Dependency" subject="fk_jgraAUCQcIQqJ" toDiagramElement="NZTtgraAUCQcIQfX" xmi:id="wU_jgraAUCQcIQqK">
+			<uml:DiagramElement geometry="146,238,145,57" preferredShapeType="Class" subject="x1dOQraAUCQcIQvH" xmi:id="x1dOQraAUCQcIQvG">
 				<xmi:Extension extender="Visual Paradigm">
-					<captionBounds value="334,240,20,0"/>
+					<captionBounds value="0,0,145,14"/>
+					<captionInternalWidth value="-2147483648"/>
+					<captionInternalHeight value="-2147483648"/>
+					<captionVisible value="true"/>
+					<captionSide value="12"/>
+					<properties>
+						<azOrder value="4"/>
+						<abackground value="Cr:122,207,245,255"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<acreatorDiagramType value="ClassDiagram"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<arequestResetCaptionFitWidth value="false"/>
+						<amodelElementNameAlignment value="9"/>
+						<apresentationOption value="4"/>
+						<aprimitiveShapeType value="0"/>
+						<ashowStereotypeIconName value="0"/>
+						<ashowAllocatedFrom value="0"/>
+						<ashowAllocatedTo value="0"/>
+						<aoverrideAppearanceWithStereotypeIcon value="true"/>
+						<arequestSetSizeOption value="0"/>
+						<aparentConnectorHeaderLength value="40"/>
+						<aparentConnectorLineLength value="10"/>
+						<aconnectToPoint value="true"/>
+						<aparentConnectorDTheta value="0.0"/>
+						<aconnectionPointType value="2"/>
+						<arequestDefaultSize value="false"/>
+						<arequestFitSize value="false"/>
+						<arequestFitSizeFromCenter value="false"/>
+						<adisplayAsRobustnessAnalysisIcon value="true"/>
+						<avisibilityStyle value="1"/>
+						<ashowAttributeType value="1"/>
+						<ashowOperationType value="1"/>
+						<ashowEnumerationLiteralType value="1"/>
+						<amSwTpPts value="true"/>
+						<alshRfAts value="0"/>
+						<amShDrAt value="false"/>
+						<akShDrOp value="false"/>
+						<akSwCsMbSt value="true"/>
+						<ashowClassMemberConstraints value="true"/>
+						<alShCmMl value="false"/>
+						<ashowOperationParameterDirection value="false"/>
+						<ashowOperationRaisedExceptions value="false"/>
+						<ashowParameterNameInOperationSignature value="true"/>
+						<ashowOperationTemplateParameters value="false"/>
+						<ashowOperationProperties value="false"/>
+						<awpMbs value="false"/>
+						<aattributeSortType value="0"/>
+						<aoperationSortType value="0"/>
+						<aenumerationLiteralSortType value="0"/>
+						<ashowInitialAttributeValue value="true"/>
+						<ashowOperationSignature value="true"/>
+						<ainterfaceBall value="false"/>
+						<ashowEmptyCompartments value="0"/>
+						<ashowEllipsisForUnshownMembers value="0"/>
+						<ashowAttributesCodeDetails value="0"/>
+						<ashowAttributesPropertyModifiers value="0"/>
+						<ashowOperationsCodeDetails value="0"/>
+						<ashowParametersCodeDetails value="0"/>
+						<ashowTypeOption value="0"/>
+						<ashowOwnerOption value="3"/>
+						<ashowAttributesType value="0"/>
+						<ashowOperationsParameters value="0"/>
+						<ashowOperationsReturnType value="0"/>
+						<asuppressImplied1MultiplicityForAttribute value="0"/>
+					</properties>
+				</xmi:Extension>
+				<elementFill color1="Cr:122,207,245,255" color2="" style="1" transparency="0" type="1"/>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+				<CompartmentFont value="none"/>
+			</uml:DiagramElement>
+			<uml:DiagramElement fromDiagramElement="x1dOQraAUCQcIQvG" geometry="292,276;454,277;" preferredShapeType="Dependency" subject="4Ts.QraAUCQcIQyX" toDiagramElement="lh4eQraAUCQcIQw3" xmi:id="cTs.QraAUCQcIQyY">
+				<xmi:Extension extender="Visual Paradigm">
+					<captionBounds value="383,296,20,0"/>
 					<captionInternalWidth value="-2147483648"/>
 					<captionInternalHeight value="-2147483648"/>
 					<captionVisible value="true"/>
@@ -13421,7 +14384,441 @@
 						<arequestResetCaptionSize value="false"/>
 						<arequestResetCaptionFitWidth value="false"/>
 						<amodelElementNameAlignment value="9"/>
-						<atoMemberId value="BOSdgraAUCQcIQgd"/>
+						<atoMemberId value="8fWeQraAUCQcIQxQ"/>
+						<aconnectorStyle value="3"/>
+						<aconnectorLineJumps value="4"/>
+						<aconnectorLabelOrientation value="4"/>
+						<afromShapeXDiff value="0"/>
+						<afromShapeYDiff value="0"/>
+						<atoShapeXDiff value="0"/>
+						<atoShapeYDiff value="0"/>
+						<afromConnectType value="0"/>
+						<atoConnectType value="0"/>
+						<auseFromShapeCenter value="true"/>
+						<auseToShapeCenter value="true"/>
+						<afromPinType value="1"/>
+						<atoPinType value="1"/>
+						<arequestRebuild value="false"/>
+						<arequestRebuildFromEnd value="false"/>
+						<arequestRebuildToEnd value="false"/>
+						<ashowConnectorName value="2"/>
+						<apaintThroughLabel value="2"/>
+					</properties>
+				</xmi:Extension>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+			</uml:DiagramElement>
+		</uml:Diagram.element>
+	</uml:Diagram>
+	<uml:Diagram diagramType="ClassDiagram" documentation="" name="L01 - Car Class Diagram" toolName="Visual Paradigm" xmi:id="0sx5oraAUtByZgdP">
+		<xmi:Extension extender="Visual Paradigm">
+			<properties>
+				<ashowShapeStereotypeIconName value="true"/>
+				<ashowAllocatedFrom value="true"/>
+				<ashowAllocatedTo value="true"/>
+				<apmAuthor value="tristanyamaguchi"/>
+				<apmCreateDateTime value="1568831058763"/>
+				<apmLastModified value="1568831728283"/>
+				<ateamworkCreateDateTime value="0"/>
+				<ashowShapeLegend value="false"/>
+				<ashowColorLegend value="false"/>
+				<ashowPackageNameStyle value="0"/>
+				<ashowConnectorName value="0"/>
+				<ashowInformationItemOption value="2"/>
+				<ahideConnectorIfFromToIsHidden value="0"/>
+				<apaintConnectorThroughLabel value="1"/>
+				<ashowActivityStateNodeCaption value="524287"/>
+				<adocumentation htmlValue="&lt;html&gt;&#10;  &lt;head&gt;&#10;    &lt;style type=&quot;text/css&quot;&gt;&#10;      &lt;!--&#10;        body { color: #000000; font-family: Dialog; font-size: 12px }&#10;      --&gt;&#10;    &lt;/style&gt;&#10;    &#10;  &lt;/head&gt;&#10;  &lt;body&gt;&#10;    &lt;p&gt;&#10;      &#10;    &lt;/p&gt;&#10;  &lt;/body&gt;&#10;&lt;/html&gt;&#10;"/>
+				<aeditable value="true"/>
+				<arequestFitSizeWithPromptUser value="false"/>
+				<afollowDiagramParentElement value="true"/>
+				<aautoFitShapesSize value="false"/>
+				<ashowTaggedValues value="false"/>
+				<ahideEmptyTaggedValues value="false"/>
+				<ashowStereotypes value="true"/>
+				<ashowPMIteration value="false"/>
+				<ashowPMPhase value="false"/>
+				<ashowPMDiscipline value="false"/>
+				<ashowPMVersion value="false"/>
+				<ashowPMPriority value="false"/>
+				<ashowPMStatus value="false"/>
+				<ashowPMDifficulty value="false"/>
+				<ashowPMAuthor value="false"/>
+				<ashowConstraints value="false"/>
+				<aalignToGrid value="false"/>
+				<agridVisible value="false"/>
+				<agridWidth value="10"/>
+				<agridHeight value="10"/>
+				<agridColor value="Cr:192,192,192,255"/>
+				<adiagramBackground value="Cr:255,255,255,255"/>
+				<aconnectorStyle value="1"/>
+				<aconnectorLineJumps value="0"/>
+				<aconnectorLineJumpsSize value="0"/>
+				<aconnectionPointStyle value="0"/>
+				<aconnectorLabelOrientation value="0"/>
+				<aconnectorModelElementNameAlignment value="4"/>
+				<amodelElementNameAlignment value="4"/>
+				<ashapePresentationOption value="0"/>
+				<azoomRatio value="1.0"/>
+				<amaximized value="false"/>
+				<ax value="0"/>
+				<ay value="0"/>
+				<awidth value="0"/>
+				<aheight value="0"/>
+				<aqualityScore value="-1"/>
+				<aparentModel value="WE25oraAUtByZgdA"/>
+				<a_globalPaletteOption value="true"/>
+				<ainitializeDiagramForCreate value="true"/>
+				<arequestValidateSnapToGrid value="false"/>
+				<apointConnectorEndToCompartmentMember value="true"/>
+				<ashowDefaultPackage value="true"/>
+				<ashowAttributeGetterSetter value="false"/>
+				<ashowClassOwner value="2"/>
+				<ashowPackageOwner value="2"/>
+				<ashowTemplateInfoOfGeneralizationAndRealization value="false"/>
+				<asuppressImplied1MultiplicityForAttributeAndAssociationEnd value="false"/>
+				<ashowClassEmptyCompartments value="2"/>
+				<ashowAttributesCodeDetails value="2"/>
+				<ashowAttributesPropertyModifiers value="2"/>
+				<ashowAttributesType value="1"/>
+				<ashowOperationsParameters value="1"/>
+				<ashowOperationsReturnType value="1"/>
+				<ashowOperationsCodeDetails value="2"/>
+				<ashowParametersCodeDetails value="2"/>
+				<ashowEllipsisForUnshownClassMembers value="2"/>
+				<ageneralizationSetNotation value="2"/>
+				<ashowAssociationNavigationArrows value="3"/>
+				<ashowClassReferencedAttributes value="true"/>
+			</properties>
+		</xmi:Extension>
+		<uml:Diagram.element>
+			<uml:DiagramElement geometry="67,40,236,299" preferredShapeType="Class" subject="dZt5oraAUtByZgiv" xmi:id="dZt5oraAUtByZgiu">
+				<xmi:Extension extender="Visual Paradigm">
+					<captionBounds value="0,0,236,14"/>
+					<captionInternalWidth value="-2147483648"/>
+					<captionInternalHeight value="-2147483648"/>
+					<captionVisible value="true"/>
+					<captionSide value="12"/>
+					<properties>
+						<azOrder value="2"/>
+						<abackground value="Cr:122,207,245,255"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<acreatorDiagramType value="ClassDiagram"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<arequestResetCaptionFitWidth value="false"/>
+						<amodelElementNameAlignment value="9"/>
+						<apresentationOption value="4"/>
+						<aprimitiveShapeType value="0"/>
+						<ashowStereotypeIconName value="0"/>
+						<ashowAllocatedFrom value="0"/>
+						<ashowAllocatedTo value="0"/>
+						<aoverrideAppearanceWithStereotypeIcon value="true"/>
+						<arequestSetSizeOption value="0"/>
+						<aparentConnectorHeaderLength value="40"/>
+						<aparentConnectorLineLength value="10"/>
+						<aconnectToPoint value="true"/>
+						<aparentConnectorDTheta value="0.0"/>
+						<aconnectionPointType value="2"/>
+						<arequestDefaultSize value="false"/>
+						<arequestFitSize value="false"/>
+						<arequestFitSizeFromCenter value="false"/>
+						<adisplayAsRobustnessAnalysisIcon value="true"/>
+						<avisibilityStyle value="1"/>
+						<ashowAttributeType value="1"/>
+						<ashowOperationType value="1"/>
+						<ashowEnumerationLiteralType value="1"/>
+						<amSwTpPts value="true"/>
+						<alshRfAts value="0"/>
+						<amShDrAt value="false"/>
+						<akShDrOp value="false"/>
+						<akSwCsMbSt value="true"/>
+						<ashowClassMemberConstraints value="true"/>
+						<alShCmMl value="false"/>
+						<ashowOperationParameterDirection value="false"/>
+						<ashowOperationRaisedExceptions value="false"/>
+						<ashowParameterNameInOperationSignature value="true"/>
+						<ashowOperationTemplateParameters value="false"/>
+						<ashowOperationProperties value="false"/>
+						<awpMbs value="false"/>
+						<aattributeSortType value="0"/>
+						<aoperationSortType value="0"/>
+						<aenumerationLiteralSortType value="0"/>
+						<ashowInitialAttributeValue value="true"/>
+						<ashowOperationSignature value="true"/>
+						<ainterfaceBall value="false"/>
+						<ashowEmptyCompartments value="0"/>
+						<ashowEllipsisForUnshownMembers value="0"/>
+						<ashowAttributesCodeDetails value="0"/>
+						<ashowAttributesPropertyModifiers value="0"/>
+						<ashowOperationsCodeDetails value="0"/>
+						<ashowParametersCodeDetails value="0"/>
+						<ashowTypeOption value="0"/>
+						<ashowOwnerOption value="3"/>
+						<ashowAttributesType value="0"/>
+						<ashowOperationsParameters value="0"/>
+						<ashowOperationsReturnType value="0"/>
+						<asuppressImplied1MultiplicityForAttribute value="0"/>
+					</properties>
+				</xmi:Extension>
+				<elementFill color1="Cr:122,207,245,255" color2="" style="1" transparency="0" type="1"/>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+				<CompartmentFont value="none"/>
+			</uml:DiagramElement>
+		</uml:Diagram.element>
+	</uml:Diagram>
+	<uml:Diagram diagramType="ClassDiagram" documentation="" name="A06 - LetterSize Class Diagram" toolName="Visual Paradigm" xmi:id="iVYRYraAUtByZgbZ">
+		<xmi:Extension extender="Visual Paradigm">
+			<properties>
+				<ashowShapeStereotypeIconName value="true"/>
+				<ashowAllocatedFrom value="true"/>
+				<ashowAllocatedTo value="true"/>
+				<apmAuthor value="tristanyamaguchi"/>
+				<apmCreateDateTime value="1568846408337"/>
+				<apmLastModified value="1568846666482"/>
+				<ateamworkCreateDateTime value="0"/>
+				<ashowShapeLegend value="false"/>
+				<ashowColorLegend value="false"/>
+				<ashowPackageNameStyle value="0"/>
+				<ashowConnectorName value="0"/>
+				<ashowInformationItemOption value="2"/>
+				<ahideConnectorIfFromToIsHidden value="0"/>
+				<apaintConnectorThroughLabel value="1"/>
+				<ashowActivityStateNodeCaption value="524287"/>
+				<adocumentation htmlValue="&lt;html&gt;&#10;  &lt;head&gt;&#10;    &lt;style type=&quot;text/css&quot;&gt;&#10;      &lt;!--&#10;        body { color: #000000; font-family: Dialog; font-size: 12px }&#10;      --&gt;&#10;    &lt;/style&gt;&#10;    &#10;  &lt;/head&gt;&#10;  &lt;body&gt;&#10;    &lt;p&gt;&#10;      &#10;    &lt;/p&gt;&#10;  &lt;/body&gt;&#10;&lt;/html&gt;&#10;"/>
+				<aeditable value="true"/>
+				<arequestFitSizeWithPromptUser value="false"/>
+				<afollowDiagramParentElement value="true"/>
+				<aautoFitShapesSize value="false"/>
+				<ashowTaggedValues value="false"/>
+				<ahideEmptyTaggedValues value="false"/>
+				<ashowStereotypes value="true"/>
+				<ashowPMIteration value="false"/>
+				<ashowPMPhase value="false"/>
+				<ashowPMDiscipline value="false"/>
+				<ashowPMVersion value="false"/>
+				<ashowPMPriority value="false"/>
+				<ashowPMStatus value="false"/>
+				<ashowPMDifficulty value="false"/>
+				<ashowPMAuthor value="false"/>
+				<ashowConstraints value="false"/>
+				<aalignToGrid value="false"/>
+				<agridVisible value="false"/>
+				<agridWidth value="10"/>
+				<agridHeight value="10"/>
+				<agridColor value="Cr:192,192,192,255"/>
+				<adiagramBackground value="Cr:255,255,255,255"/>
+				<aconnectorStyle value="1"/>
+				<aconnectorLineJumps value="0"/>
+				<aconnectorLineJumpsSize value="0"/>
+				<aconnectionPointStyle value="0"/>
+				<aconnectorLabelOrientation value="0"/>
+				<aconnectorModelElementNameAlignment value="4"/>
+				<amodelElementNameAlignment value="4"/>
+				<ashapePresentationOption value="0"/>
+				<azoomRatio value="1.0"/>
+				<amaximized value="false"/>
+				<ax value="0"/>
+				<ay value="0"/>
+				<awidth value="0"/>
+				<aheight value="0"/>
+				<aqualityScore value="-1"/>
+				<aparentModel value="tO3hYraAUtByZgbN"/>
+				<a_globalPaletteOption value="true"/>
+				<ainitializeDiagramForCreate value="true"/>
+				<arequestValidateSnapToGrid value="false"/>
+				<apointConnectorEndToCompartmentMember value="true"/>
+				<ashowDefaultPackage value="true"/>
+				<ashowAttributeGetterSetter value="false"/>
+				<ashowClassOwner value="2"/>
+				<ashowPackageOwner value="2"/>
+				<ashowTemplateInfoOfGeneralizationAndRealization value="false"/>
+				<asuppressImplied1MultiplicityForAttributeAndAssociationEnd value="false"/>
+				<ashowClassEmptyCompartments value="2"/>
+				<ashowAttributesCodeDetails value="2"/>
+				<ashowAttributesPropertyModifiers value="2"/>
+				<ashowAttributesType value="1"/>
+				<ashowOperationsParameters value="1"/>
+				<ashowOperationsReturnType value="1"/>
+				<ashowOperationsCodeDetails value="2"/>
+				<ashowParametersCodeDetails value="2"/>
+				<ashowEllipsisForUnshownClassMembers value="2"/>
+				<ageneralizationSetNotation value="2"/>
+				<ashowAssociationNavigationArrows value="3"/>
+				<ashowClassReferencedAttributes value="true"/>
+			</properties>
+		</xmi:Extension>
+		<uml:Diagram.element>
+			<uml:DiagramElement geometry="319,158,327,101" preferredShapeType="Class" subject="wJaRYraAUtByZghi" xmi:id="wJaRYraAUtByZghh">
+				<xmi:Extension extender="Visual Paradigm">
+					<captionBounds value="0,0,327,14"/>
+					<captionInternalWidth value="-2147483648"/>
+					<captionInternalHeight value="-2147483648"/>
+					<captionVisible value="true"/>
+					<captionSide value="12"/>
+					<properties>
+						<azOrder value="2"/>
+						<abackground value="Cr:122,207,245,255"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<acreatorDiagramType value="ClassDiagram"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<arequestResetCaptionFitWidth value="false"/>
+						<amodelElementNameAlignment value="9"/>
+						<apresentationOption value="4"/>
+						<aprimitiveShapeType value="0"/>
+						<ashowStereotypeIconName value="0"/>
+						<ashowAllocatedFrom value="0"/>
+						<ashowAllocatedTo value="0"/>
+						<aoverrideAppearanceWithStereotypeIcon value="true"/>
+						<arequestSetSizeOption value="0"/>
+						<aparentConnectorHeaderLength value="40"/>
+						<aparentConnectorLineLength value="10"/>
+						<aconnectToPoint value="true"/>
+						<aparentConnectorDTheta value="0.0"/>
+						<aconnectionPointType value="2"/>
+						<arequestDefaultSize value="false"/>
+						<arequestFitSize value="false"/>
+						<arequestFitSizeFromCenter value="false"/>
+						<adisplayAsRobustnessAnalysisIcon value="true"/>
+						<avisibilityStyle value="1"/>
+						<ashowAttributeType value="1"/>
+						<ashowOperationType value="1"/>
+						<ashowEnumerationLiteralType value="1"/>
+						<amSwTpPts value="true"/>
+						<alshRfAts value="0"/>
+						<amShDrAt value="false"/>
+						<akShDrOp value="false"/>
+						<akSwCsMbSt value="true"/>
+						<ashowClassMemberConstraints value="true"/>
+						<alShCmMl value="false"/>
+						<ashowOperationParameterDirection value="false"/>
+						<ashowOperationRaisedExceptions value="false"/>
+						<ashowParameterNameInOperationSignature value="true"/>
+						<ashowOperationTemplateParameters value="false"/>
+						<ashowOperationProperties value="false"/>
+						<awpMbs value="false"/>
+						<aattributeSortType value="0"/>
+						<aoperationSortType value="0"/>
+						<aenumerationLiteralSortType value="0"/>
+						<ashowInitialAttributeValue value="true"/>
+						<ashowOperationSignature value="true"/>
+						<ainterfaceBall value="false"/>
+						<ashowEmptyCompartments value="0"/>
+						<ashowEllipsisForUnshownMembers value="0"/>
+						<ashowAttributesCodeDetails value="0"/>
+						<ashowAttributesPropertyModifiers value="0"/>
+						<ashowOperationsCodeDetails value="0"/>
+						<ashowParametersCodeDetails value="0"/>
+						<ashowTypeOption value="0"/>
+						<ashowOwnerOption value="3"/>
+						<ashowAttributesType value="0"/>
+						<ashowOperationsParameters value="0"/>
+						<ashowOperationsReturnType value="0"/>
+						<asuppressImplied1MultiplicityForAttribute value="0"/>
+					</properties>
+				</xmi:Extension>
+				<elementFill color1="Cr:122,207,245,255" color2="" style="1" transparency="0" type="1"/>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+				<CompartmentFont value="none"/>
+			</uml:DiagramElement>
+			<uml:DiagramElement geometry="113,185,154,61" preferredShapeType="Class" subject="bpkRYraAUtByZgg8" xmi:id="rpkRYraAUtByZgg7">
+				<xmi:Extension extender="Visual Paradigm">
+					<captionBounds value="0,0,154,14"/>
+					<captionInternalWidth value="-2147483648"/>
+					<captionInternalHeight value="-2147483648"/>
+					<captionVisible value="true"/>
+					<captionSide value="12"/>
+					<properties>
+						<azOrder value="4"/>
+						<abackground value="Cr:122,207,245,255"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<acreatorDiagramType value="ClassDiagram"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<arequestResetCaptionFitWidth value="false"/>
+						<amodelElementNameAlignment value="9"/>
+						<apresentationOption value="4"/>
+						<aprimitiveShapeType value="0"/>
+						<ashowStereotypeIconName value="0"/>
+						<ashowAllocatedFrom value="0"/>
+						<ashowAllocatedTo value="0"/>
+						<aoverrideAppearanceWithStereotypeIcon value="true"/>
+						<arequestSetSizeOption value="0"/>
+						<aparentConnectorHeaderLength value="40"/>
+						<aparentConnectorLineLength value="10"/>
+						<aconnectToPoint value="true"/>
+						<aparentConnectorDTheta value="0.0"/>
+						<aconnectionPointType value="2"/>
+						<arequestDefaultSize value="false"/>
+						<arequestFitSize value="false"/>
+						<arequestFitSizeFromCenter value="false"/>
+						<adisplayAsRobustnessAnalysisIcon value="true"/>
+						<avisibilityStyle value="1"/>
+						<ashowAttributeType value="1"/>
+						<ashowOperationType value="1"/>
+						<ashowEnumerationLiteralType value="1"/>
+						<amSwTpPts value="true"/>
+						<alshRfAts value="0"/>
+						<amShDrAt value="false"/>
+						<akShDrOp value="false"/>
+						<akSwCsMbSt value="true"/>
+						<ashowClassMemberConstraints value="true"/>
+						<alShCmMl value="false"/>
+						<ashowOperationParameterDirection value="false"/>
+						<ashowOperationRaisedExceptions value="false"/>
+						<ashowParameterNameInOperationSignature value="true"/>
+						<ashowOperationTemplateParameters value="false"/>
+						<ashowOperationProperties value="false"/>
+						<awpMbs value="false"/>
+						<aattributeSortType value="0"/>
+						<aoperationSortType value="0"/>
+						<aenumerationLiteralSortType value="0"/>
+						<ashowInitialAttributeValue value="true"/>
+						<ashowOperationSignature value="true"/>
+						<ainterfaceBall value="false"/>
+						<ashowEmptyCompartments value="0"/>
+						<ashowEllipsisForUnshownMembers value="0"/>
+						<ashowAttributesCodeDetails value="0"/>
+						<ashowAttributesPropertyModifiers value="0"/>
+						<ashowOperationsCodeDetails value="0"/>
+						<ashowParametersCodeDetails value="0"/>
+						<ashowTypeOption value="0"/>
+						<ashowOwnerOption value="3"/>
+						<ashowAttributesType value="0"/>
+						<ashowOperationsParameters value="0"/>
+						<ashowOperationsReturnType value="0"/>
+						<asuppressImplied1MultiplicityForAttribute value="0"/>
+					</properties>
+				</xmi:Extension>
+				<elementFill color1="Cr:122,207,245,255" color2="" style="1" transparency="0" type="1"/>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+				<CompartmentFont value="none"/>
+			</uml:DiagramElement>
+			<uml:DiagramElement fromDiagramElement="rpkRYraAUtByZgg7" geometry="268,211;319,211;" preferredShapeType="Dependency" subject="2PIxYraAUtByZgmW" toDiagramElement="wJaRYraAUtByZghh" xmi:id="7vIxYraAUtByZgmX">
+				<xmi:Extension extender="Visual Paradigm">
+					<captionBounds value="303,231,20,0"/>
+					<captionInternalWidth value="-2147483648"/>
+					<captionInternalHeight value="-2147483648"/>
+					<captionVisible value="true"/>
+					<captionSide value="1"/>
+					<properties>
+						<azOrder value="6"/>
+						<abackground value="Cr:122,207,245,255"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<acreatorDiagramType value="ClassDiagram"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<arequestResetCaptionFitWidth value="false"/>
+						<amodelElementNameAlignment value="9"/>
+						<atoMemberId value="XOFRYraAUtByZgje"/>
 						<aconnectorStyle value="3"/>
 						<aconnectorLineJumps value="4"/>
 						<aconnectorLabelOrientation value="4"/>

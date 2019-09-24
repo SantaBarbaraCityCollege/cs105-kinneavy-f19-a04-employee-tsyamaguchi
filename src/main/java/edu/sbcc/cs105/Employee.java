@@ -21,28 +21,38 @@ public class Employee {
 
     /**
      * Constructor that creates a new Employee with an initial name and salary.
-     * 
+     * @param employeeName 
+     * @param currentSalary
      */
     
     public Employee(String employeeName, double currentSalary) {
         this.employeeName = employeeName;
-		    this.currentSalary = currentSalary;
+		this.currentSalary = currentSalary;
     }
 
     // Accessors that are obvious and have no side effects don't have to have
     // any documentation unless you are creating a library to be used by other
     // people.
+
+    /**
+     * Get name
+     * @return employee's name
+     */
     public String getName() {
 		    return employeeName;
     }
 
+    /**
+     * Get employee's salary
+     * @return employee's current salary
+     */
     public double getSalary() {
 		    return currentSalary;
     }
 
     /**
      * Raise the salary by the amount specified by the explicit argument.
-     * 
+     * @param byPercent
      */
     public void raiseSalary(double byPercent) {
 		    currentSalary = currentSalary + ((currentSalary * byPercent) / 100);
