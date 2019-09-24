@@ -27,7 +27,7 @@ public class Program {
      */
 
     public static void main(String[] args) {
-		Employee harry = new Employee("Harry", 10000);
+        Employee harry = new Employee("Harry", 10000);
         harry.raiseSalary(10); // Harry gets a 10% raise.
         double harrysSalary = harry.getSalary();
         System.out.println(harry.getName() + "'s salary is: $" + harrysSalary);
